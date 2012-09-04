@@ -1,0 +1,15 @@
+name: DiamondBOOM
+main: to.us.diamondcraft.DiamondBOOM
+author: gauso001
+description: Blow up the target with a single command!
+version: 1.0
+
+commands:
+    boom:
+        description: blow up the player
+        permission: diamondBOOM.boom
+        usage: /boom targetplayer
+    diamondboom:
+        description: display the help
+        permission: diamondBOOM.help
+        usage: DiamondBOOM V1.0 by gauso001. To blow someone up do /boom targetplayer. .:WARNING:. THIS WILL CREATE AN EXPLOSION WITH OVER 2x THE POWER OF TNT AT THE TAGETPLAYER's CURRENT LOCATION! BEWARE! Use NoEntityGrief to keep the effect, but prevent block damage
